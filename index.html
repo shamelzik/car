@@ -1,0 +1,578 @@
+<!DOCTYPE html><html lang="zxx"><head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <title>Lori Sewa - Your Descriptive Tagline | Keywords</title>
+      <meta name="description" content="Brief description of your website containing relevant keywords">
+      <meta name="keywords" content="keyword1, keyword2, keyword3, ...">
+      <link rel="shortcut icon" href="images/favicon.png">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&amp;display=swap">
+      <link rel="stylesheet" href="css/plugins.css">
+      <link rel="stylesheet" href="css/style.css">
+      <style>
+        /* Add shadow behind the text "Luxury Cars" */
+        .luxury-title {
+            color: yellow; /* Set the text color to yellow */
+        }
+      .floating-tab {
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          background-color: #f5b754;
+          color: #000000;
+          padding: 10px 20px;
+          border-radius: 5px;
+          cursor: pointer;
+          z-index: 9999; /* Ensure the tab appears above other elements */
+      }
+      .content {
+          padding-bottom: 60px; /* Adjust this value to match the height of the floating tab */
+      }
+  </style>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="preloader-position loader"> <span></span> </div>
+        </div>
+    </div>
+   
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper">
+                <a class="logo" href="index.html"> <img src="images/logo-light.png" class="logo-img" alt=""> </a>
+                <!-- <a class="logo" href="index.html"><h2>Renta<span>x</span></h2></a> -->
+            </div>
+            <!-- Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span> </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#video">Video</a></li>
+                   <li class="nav-item"><a class="nav-link" href="#lorry-collections">Lorry Collections</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#process">Our Process</a></li>
+                   <li class="nav-item"><a class="nav-link" href="#contact-us">Contact Us</a></li>
+                </ul>
+                <div class="navbar-right">
+                    <div class="wrap">
+                        <div class="icon"> <i class="flaticon-phone-call"></i> </div>
+                        <div class="text">
+                            <p>Need help?</p>
+                            <h5><a href="60149233929">014-923-3929</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+  <!-- Floating Visitor Count Tab -->
+  <div class="floating-tab" id="visitor-count-tab">Visitors: 1</div>
+
+    <!-- Slider -->
+  <header class="header slider-fade" id="home">
+      <div class="owl-carousel owl-theme">
+          <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
+          <div class="item bg-img" data-overlay-dark="5" data-background="images/11.jpg">
+              <div class="v-middle caption" style="margin-top: 150px;"> <!-- Adjust margin-top as needed -->
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-12 col-md-12 mb-30">
+                              <div class="v-middle text-center">
+                                  <h1 style="font-size: 45px; color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); letter-spacing: 2px; font-weight: bold; animation: bounce 2s infinite;">Best Service</h1>
+                                  <h1 style="font-size: 45px; color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); letter-spacing: 2px; font-weight: bold; animation: bounce 2s infinite;">Very Trusted</h1>
+                                  <div style="margin-top: 200px;"> <!-- Adjust margin-top as needed -->
+                                      <a href="https://api.whatsapp.com/send?phone=60149233929" class="button-1 mt-30 mb-15 mr-10"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                                      <a href="tel:60149233929" class="button-2 mb-10">Contact Us <span class="ti-arrow-top-right"></span></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </header>
+
+
+
+
+
+
+
+
+
+
+
+  <section class="video-wrapper video section-padding bg-img bg-fixed" id="video" data-overlay-dark="4" data-background="img/slider/1.jpg">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12 text-center">    
+                  <div class="section-title white">Customer's <span>Testimonial</span> Video</div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="text-center col-md-12">
+                  <!-- Video with autoplay and muted for browsers that support it -->
+                  <video id="videoPlayer" autoplay loop muted playsinline>
+                      <source src="videos.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                  </video>
+                  <!-- Unmute button -->
+                  <button id="unmuteButton" class="unmute-button" style="color: white;">Unmute</button>
+                
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="description-wrapper section-padding" style="margin-top: -150px;">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12 text-center">
+                  <div class="section-title" style="color: #fff;">Move your belongings with Ease, Speed, and Safety with us</div>
+                  <div class="video-description" style="color: #fff;">
+                      <strong>📌 Your advantages include:</strong><br>
+                      <span style="border-bottom: 1px solid #007bff;"></span><br>
+                      ✔️ <strong>Safe and Convenient Item Transport</strong><span style="font-weight: normal;"> - We have Workers</span><br>
+                      <span style="border-bottom: 1px solid #007bff;"></span><br>
+                      ✔️ <strong>No Items Getting Wet in Rain/Heat</strong><span style="font-weight: normal;"> - Our lorries are covered</span><br>
+                      <span style="border-bottom: 1px solid #007bff;"></span><br>
+                      ✔️ <strong>Items Arrive Safely</strong><span style="font-weight: normal;"> - We have no accident records</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+
+  <script>
+      // JavaScript to handle video playback
+      var videoPlayer = document.getElementById('videoPlayer');
+      var unmuteButton = document.getElementById('unmuteButton');
+
+      // Function to unmute the video
+      function unmuteVideo() {
+          videoPlayer.muted = false; // Unmute the video
+          unmuteButton.style.display = 'none'; // Hide the unmute button once unmuted
+      }
+
+      // Event listener for the unmute button
+      unmuteButton.addEventListener('click', unmuteVideo);
+
+      // Auto-play the video if supported (muted)
+      videoPlayer.play().catch(function() {
+          // Auto-play failed, possibly due to browser restrictions
+          // In such case, the user may need to interact with the page to start the video
+      });
+  </script>
+
+   
+  <!-- Car Category -->
+  <section class="car-types1 section-padding" id="lorry-collections">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12 text-center mb-30">
+                  <div class="section-title">Various vehicles <span>for your convenience</span></div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="owl-carousel owl-theme">
+                      <div class="item"> <img src="111/1.png" class="img-fluid" alt="">
+                          <div class="title">
+                              <h4 style="color: black;">4x4</h4>
+                          </div>
+                          <div class="curv-butn icon-bg">
+                              <a href="https://api.whatsapp.com/send?phone=60149233929" class="vid">
+                                  <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
+                              </a>
+                              <div class="br-left-top">
+                                  <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                      <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                  </svg>
+                              </div>
+                              <div class="br-right-bottom">
+                                  <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                      <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                  </svg>
+                              </div>
+                          </div>
+                      </div>
+                    <div class="item"> <img src="111/2.png" class="img-fluid" alt="">
+                        <div class="title">
+                            <h4 style="color: black;">VAN</h4>
+                        </div>
+                        <div class="curv-butn icon-bg">
+                            <a href="https://api.whatsapp.com/send?phone=60149233929" class="vid">
+                                <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
+                            </a>
+                            <div class="br-left-top">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                            <div class="br-right-bottom">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item"> <img src="111/3.png" class="img-fluid" alt="">
+                        <div class="title">
+                            <h4 style="color: black;">LORI 1 TAN</h4>
+                        </div>
+                        <div class="curv-butn icon-bg">
+                            <a href="https://api.whatsapp.com/send?phone=60149233929" class="vid">
+                                <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
+                            </a>
+                            <div class="br-left-top">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                            <div class="br-right-bottom">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item"> <img src="111/4.png" class="img-fluid" alt="">
+                        <div class="title">
+                            <h4 style="color: black;">LORI 2 TAN</h4>
+                        </div>
+                        <div class="curv-butn icon-bg">
+                            <a href="https://api.whatsapp.com/send?phone=60149233929" class="vid">
+                                <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
+                            </a>
+                            <div class="br-left-top">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                            <div class="br-right-bottom">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item"> <img src="111/5.png" class="img-fluid" alt="">
+                        <div class="title">
+                            <h4 style="color: black;">LORI 3 TAN</h4>
+                        </div>
+                        <div class="curv-butn icon-bg">
+                            <a href="https://api.whatsapp.com/send?phone=60149233929" class="vid">
+                                <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
+                            </a>
+                            <div class="br-left-top">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                            <div class="br-right-bottom">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item"> <img src="111/6.png" class="img-fluid" alt="">
+                        <div class="title">
+                            <h4 style="color: black;">LORI 5 TAN</h4>
+                        </div>
+                        <div class="curv-butn icon-bg">
+                            <a href="https://api.whatsapp.com/send?phone=60149233929" class="vid">
+                                <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
+                            </a>
+                            <div class="br-left-top">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                            <div class="br-right-bottom">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item"> <img src="111/7.png" class="img-fluid" alt="">
+                        <div class="title">
+                            <h4 style="color: black;">LORI 8 TAN</h4>
+                        </div>
+                        <div class="curv-butn icon-bg">
+                            <a href="https://api.whatsapp.com/send?phone=60149233929" class="vid">
+                                <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
+                            </a>
+                            <div class="br-left-top">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                            <div class="br-right-bottom">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item"> <img src="111/8.png" class="img-fluid" alt="">
+                        <div class="title">
+                            <h4 style="color: black;">LORI 10 TAN</h4>
+                        </div>
+                        <div class="curv-butn icon-bg">
+                            <a href="https://api.whatsapp.com/send?phone=60149233929" class="vid">
+                                <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
+                            </a>
+                            <div class="br-left-top">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                            <div class="br-right-bottom">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item"> <img src="111/9.png" class="img-fluid" alt="">
+                        <div class="title">
+                            <h4 style="color: black;">LORI TOWING</h4>
+                        </div>
+                        <div class="curv-butn icon-bg">
+                            <a href="https://api.whatsapp.com/send?phone=60149233929" class="vid">
+                                <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
+                            </a>
+                            <div class="br-left-top">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                            <div class="br-right-bottom">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item"> <img src="111/10.png" class="img-fluid" alt="">
+                        <div class="title">
+                            <h4 style="color: black;">LORI TRAILER</h4>
+                        </div>
+                        <div class="curv-butn icon-bg">
+                            <a href="https://api.whatsapp.com/send?phone=60149233929" class="vid">
+                                <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
+                            </a>
+                            <div class="br-left-top">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                            <div class="br-right-bottom">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item"> <img src="111/11.png" class="img-fluid" alt="">
+                        <div class="title">
+                            <h4 style="color: black;">LORI TAIL LIFT</h4>
+                        </div>
+                        <div class="curv-butn icon-bg">
+                            <a href="https://api.whatsapp.com/send?phone=60149233929" class="vid">
+                                <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
+                            </a>
+                            <div class="br-left-top">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                            <div class="br-right-bottom">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item"> <img src="111/12.png" class="img-fluid" alt="">
+                        <div class="title">
+                            <h4 style="color: black;">LORI BONDED</h4>
+                        </div>
+                        <div class="curv-butn icon-bg">
+                            <a href="https://api.whatsapp.com/send?phone=60149233929" class="vid">
+                                <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
+                            </a>
+                            <div class="br-left-top">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                            <div class="br-right-bottom">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item"> <img src="111/13.png" class="img-fluid" alt="">
+                        <div class="title">
+                            <h4 style="color: black;">LORI KREN</h4>
+                        </div>
+                        <div class="curv-butn icon-bg">
+                            <a href="https://api.whatsapp.com/send?phone=60149233929" class="vid">
+                                <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
+                            </a>
+                            <div class="br-left-top">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                            <div class="br-right-bottom">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item"> <img src="111/14.png" class="img-fluid" alt="">
+                        <div class="title">
+                            <h4 style="color: black;">LORI SELF LOADER</h4>
+                        </div>
+                        <div class="curv-butn icon-bg">
+                            <a href="https://api.whatsapp.com/send?phone=60149233929" class="vid">
+                                <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
+                            </a>
+                            <div class="br-left-top">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                            <div class="br-right-bottom">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item"> <img src="111/15.png" class="img-fluid" alt="">
+                        <div class="title">
+                            <h4 style="color: black;">LORI LOW LOADER</h4>
+                        </div>
+                        <div class="curv-butn icon-bg">
+                            <a href="https://api.whatsapp.com/send?phone=60149233929" class="vid">
+                                <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
+                            </a>
+                            <div class="br-left-top">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                            <div class="br-right-bottom">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="#1b1b1b"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+   
+    <!-- Lets Talk -->
+    <section class="lets-talk bg-img bg-fixed section-padding" id="contact-us" data-overlay-dark="5" data-background="img/slider/3.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h5>Interested in Renting?</h5>
+                    <p>Don't hesitate and send us a message.</p> 
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- Footer -->
+    <footer class="footer clearfix">
+        <div class="container">
+          <!-- first footer -->
+          <div class="first-footer">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="links dark footer-contact-links">
+                          <div class="footer-contact-links-wrapper">
+                              <div class="footer-contact-link-wrapper">
+                                  <div class="image-wrapper footer-contact-link-icon">
+                                      <!-- Wrap the icon inside an anchor tag with tel: protocol -->
+                                      <a href="tel:60149233929">
+                                          <div class="icon-footer"> <i class="flaticon-phone-call"></i> </div>
+                                      </a>
+                                  </div>
+                                  <div class="footer-contact-link-content">
+                                      <!-- Wrap the phone number inside an anchor tag with tel: protocol -->
+                                      <h6><a href="tel:60149233929">Call us</a></h6>
+                                      <p><a href="tel:60149233929">Encik Akbar </a></p>
+                                  </div>
+                              </div>
+                              <div class="footer-contact-links-divider"></div>
+                              <div class="footer-contact-link-wrapper">
+                                  <div class="image-wrapper footer-contact-link-icon">
+                                      <!-- Wrap the icon inside an anchor tag with whatsapp: protocol -->
+                                      <a href="https://wa.me/60149233929">
+                                          <div class="icon-footer"> <i class="fa-brands fa-whatsapp"></i> </div>
+                                      </a>
+                                  </div>
+                                  <div class="footer-contact-link-content">
+                                      <!-- Wrap the WhatsApp number inside an anchor tag with whatsapp: protocol -->
+                                      <h6><a href="https://wa.me/60149233929">Whatsapp Us</a></h6>
+                                      <p><a href="https://wa.me/60149233929">Encik Akbar</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          
+  <!-- bottom footer -->
+          <div class="bottom-footer-text">
+              <div class="row copyright">
+                  <div class="col-md-12">                  
+                      <!-- Second paragraph with hyperlink -->
+                      <p><a href="https://encikakbarlorisewa.com">© encikakbarlorisewa.com</a></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+    <!-- jQuery -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-migrate-3.4.1.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/custom.js"></script>
+    
+</body></html>
